@@ -20,7 +20,6 @@ export class Order {
         this.executed = 0;
         this.computeNextPlacementTime();
         this.computeNextExecutionTime();
-        console.log("symbol", symbol);
     }
 
     get isPlaced() {

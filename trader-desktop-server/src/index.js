@@ -56,7 +56,6 @@ function processOrders() {
     const tick = parseInt(process.env.TICK, 10);
     return setInterval(function() {
         const orders = orderStore.getOrders();
-       // console.log("orderStore.getOrders()  ", orders);
         orders.forEach(order => {
             const isChanged = order.processTick();
             if (isChanged) {
