@@ -1,1 +1,1 @@
-# hackathon
+# Trader desktop server
