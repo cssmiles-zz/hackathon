@@ -1,1 +1,1 @@
-# Trader desktop server
+# Trader desktop resources
